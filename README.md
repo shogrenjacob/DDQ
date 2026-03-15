@@ -2,6 +2,8 @@
 Docs Done Quick DDQ is a command line tool for rapidly generating code-level documentation by simply adding specially formatted comments within your source code. DDQ is language-agnostic, and compiles an HTML document with the generated documentation.
 
 ## Installation
+1. Ensure you have Python installed
+2. Install the required python packages from ```requirements.txt```
 
 ## Usage
 Simply add a delimited HTML tag to an single-line comment in your source code!
@@ -18,9 +20,8 @@ int main()
 ```
 
 Once you're done commenting your code, run the following command from this source directory:
+
 ``` python main.py <path-to-your-source-code>```
-
-
 
 ## List of Supported Languages
 - C
